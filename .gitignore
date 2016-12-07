@@ -1,0 +1,7 @@
+__pycache__
+include
+db.sqlite3
+.DS_Store
+Lib
+Scripts
+tcl
