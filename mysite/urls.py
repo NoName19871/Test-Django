@@ -19,5 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('bot.urls')),
-    url(r'^telegrambot/', include('telegrambot.urls', namespace="telegrambot")),
+    url(r'^telegram.me/', include('bot.urls'))
 ]
