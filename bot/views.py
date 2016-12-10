@@ -10,7 +10,6 @@ def post_list(request):
     return render(request, 'bot/post_list.html', {})
 
 
-def run_bot():
     bot = telebot.TeleBot("301583096:AAFIj_0jfY5Xoy8WivDoieZKSczIDCGO3zg")
 
     @bot.message_handler(content_types=["text"])
